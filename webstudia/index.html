@@ -1,0 +1,716 @@
+
+<!DOCTYPE html>
+<html lang="ru-RU">
+
+<head>
+    <title>WebSun - лучшая разработка</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <meta charset="UTF-8">
+<meta name="robots" content="index, follow" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+<!-- <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/icon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/icon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/icon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/icon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/icon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/icon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/icon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/icon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/icon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/icon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/icon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/icon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/icon/favicon-16x16.png"> -->
+
+<!-- <meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="img/favicon.ico">
+<meta name="theme-color" content="#ffffff"> -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="css/fancybox.css" />
+<link rel="stylesheet" href="css/main.min.css?1669724000">
+
+<link rel="stylesheet" href="css/slider-style.css">
+
+
+</head>
+
+<body>
+
+    <header class="header__main">
+    <div class="container">
+
+        <a href="/" class="header__logo">
+            <img src="img/logo_sun.png">
+            <!-- <img src="img/logo.svg"> -->
+            <div class="header__logo__text">Разработка индивидуальных Digital решений</div>
+        </a>
+
+        <div class="header__info">
+            <div class="footer__top">
+                    <div class="footer__menu">
+                        <ul>
+                            <li><a class='js_footer__menu__link' href="#about">О студии</a></li>
+                            <li><a class='js_footer__menu__link' href="#brief">Этапы</a></li>
+                            <li><a class='js_footer__menu__link' href="#what_do_id">Проекты</a></li>
+                            <li><a class='js_footer__menu__link' href="#contact">Контакты</a></li>
+                            <li><a class='footer__menu__link__politic'  data-fancybox data-src="#js_modal__politic" href="javascript:;">Политика конфиденциальности</a></li>
+                        </ul>
+                    </div>
+            </div>
+
+
+
+            <a href="javascript:void(0)" data-fancybox data-src="#js_modal__two" class="header__btn js__btn__form__two" data-title='Кнопка из шапки'>
+                <div class="header__btn__text">Оставить з<i>аявку</i></div>
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 0.757349C12 0.339187 11.661 0.000206918 11.2429 0.000206881L4.42867 0.000206285C4.0105 0.000206249 3.67152 0.339186 3.67152 0.757348C3.67152 1.17549 4.0105 1.51447 4.42867 1.51447L10.4857 1.51447L10.4857 7.57155C10.4857 7.98969 10.8247 8.32867 11.2429 8.32867C11.661 8.32867 12 7.98969 12 7.57155L12 0.757349ZM1.07075 12.0002L11.7782 1.29272L10.7075 0.221962L-8.48946e-06 10.9295L1.07075 12.0002Z" fill="#F9F6F6"/>
+                </svg>
+                <div class="header__btn__round"></div>
+            </a>
+        </div>
+
+    </div>
+</header>
+
+
+<div class="modal__menu js__modal__menu red">
+    <div class="modal__menu__inner">
+        <div class="modal__menu__top">
+            <a href="javascript:void(0)" class="modal__menu__top__logo">
+                <img src="img/logo.svg">
+            </a>
+
+
+            <div class="modal__menu__top__right">
+                <a href="tel:+7 (985) 423 27 25" class="modal__menu__phone">+7 (985) 423 27 25</a>
+
+                <button class="header__btn_menu btn_menu js_btn_menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+        <div class="modal__menu__list js_modal__menu__list">
+            <ul>
+                <li><a href="#about">О студии</a></li>
+                <li><a href="#brief">Брифинг</a></li>
+                <li><a href="#projects">Проекты</a></li>
+                <li><a href="#calculate">Расчитать<br>стоимость</a></li>
+                <li><a href="#team">Команда</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- end header -->
+    <div class="land__wrap">
+
+
+        <section class="promo">
+            <div class="container">
+                <div class="promo__info">
+
+                    <div class="promo__text">
+                        <div class="promo__title">
+                            <div class="js__title__animate">
+                                <span>Разработка сайтов</span>
+                            </div>
+                        </div>
+                        <div class="promo__bottom__count">
+                            <div class="promo__bottom__count__item js__animate__opacity__promo" data-delay='0.55'>
+                                <div class="promo__bottom__count__item__value">100+</div>
+                                <div class="promo__bottom__count__item__text">Реализовано<br> сайтов "под ключ"</div>
+                            </div>
+                            <div class="promo__bottom__count__item js__animate__opacity__promo" data-delay='0.55'>
+                                <div class="promo__bottom__count__item__value">7</div>
+                                <div class="promo__bottom__count__item__text">Лет на рынке<br> веб-разработки</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="promo__image__mobile">
+                    <img src="img/mobile.png">
+                </div>
+                <div class="promo__image">
+                    <img data-speed="0" src="img/red_round.svg" class="js_move promo__image_x promo__image_x--1">
+                    <img data-speed="55" src="img/red_circle.svg" class="js_move promo__image_x promo__image_x--2">
+                    <img data-speed="95" src="img/red_circle_small.svg" class="js_move promo__image_x promo__image_x--3">
+                    <img data-speed="75" src="img/figure_small.svg" class="js_move promo__image_x promo__image_x--4">
+                    <img data-speed="100" src="img/figure_little.svg" class="js_move promo__image_x promo__image_x--5">
+                    <img data-speed="80" src="img/figure_big.svg" class="js_move promo__image_x promo__image_x--6">
+                    <img data-speed="40" src="img/keyboard.png" class="js_move promo__image_x promo__image_x--7">
+
+                </div>
+            </div>
+        </section>
+
+
+        <div class="decisions" id='about'>
+            <div class="container">
+                <div class="decisions__title">
+                    <div class="js__title__animate">
+                        <span>Используем любые решения</span>
+                    </div>
+                </div>
+                <div class="decisions__text">От простых CMS до сложных решений на фреймфорках</div>
+
+                <div class="decisions__list">
+                    <div class="decisions__item js__btn__form__two js__animate__tech" data-fancybox data-src="#js_modal__two" data-title='Wordpress' data-delay='0.1'>
+                        <div class="decisions__item__image">
+                            <img src="img/wordpress.png">
+                        </div>
+                        <div class="decisions__item__title">Wordpress</div>
+                    </div>
+                    <div class="decisions__item js__btn__form__two js__animate__tech" data-fancybox data-src="#js_modal__two" data-title='Laravel' data-delay='0.2'>
+                        <div class="decisions__item__image">
+                            <img src="img/laravel.png">
+                        </div>
+                        <div class="decisions__item__title">Laravel</div>
+                    </div>
+                    <div class="decisions__item js__btn__form__two js__animate__tech" data-fancybox data-src="#js_modal__two" data-title='Bitrix' data-delay='0.3'>
+                        <div class="decisions__item__image">
+                            <img src="img/bitrix.png">
+                        </div>
+                        <div class="decisions__item__title">Bitrix</div>
+                    </div>
+                    <div class="decisions__item js__btn__form__two js__animate__tech" data-fancybox data-src="#js_modal__two" data-title='Open Cart' data-delay='0.4'>
+                        <div class="decisions__item__image">
+                            <img src="img/open_cart.png">
+                        </div>
+                        <div class="decisions__item__title">Open Cart</div>
+                    </div>
+                </div>
+
+                <div class="decisions__line js__animate__tech" data-delay='0.5'>И многое другое...</div>
+
+            </div>
+        </div>
+
+
+        <div class="gray__bg" id='brief'>
+            <section class="what__do__triggers">
+                <div class="container">
+                    <div class="what__do__triggers__list">
+                        <div class="what__do__triggers__item js__animate__triggers" data-delay='0.2'>
+                            <div class="what__do__triggers__item__image ">
+                                <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle class='js__animate__trigger--1--1' cx="40.5" cy="39.5" r="11.5" transform="rotate(-90 40.5 39.5)" fill="#E83E3E" />
+                                    <g class='js__animate__trigger--1--2' clip-path="url(#clip0_77_5626)">
+                                        <circle cx="40" cy="40" r="32" transform="rotate(-90 40 40)" stroke="#E83E3E" stroke-opacity="0.3" stroke-width="16" />
+                                    </g>
+                                    <g class='js__animate__trigger--1--3' clip-path="url(#clip1_77_5626)">
+                                        <circle cx="40" cy="40" r="32" transform="rotate(90 40 40)" stroke="#E83E3E" stroke-opacity="0.6" stroke-width="16" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_77_5626">
+                                            <rect width="40" height="40" fill="white" transform="translate(0 40) rotate(-90)" />
+                                        </clipPath>
+                                        <clipPath id="clip1_77_5626">
+                                            <rect width="40" height="40" fill="white" transform="translate(80 40) rotate(90)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+
+                            <div class="what__do__triggers__item__text">Совместно составляем техническое задание на
+                                созвоне-брифе с последующим его утверждением и согласованием.</div>
+                        </div>
+                        <div class="what__do__triggers__item js__animate__triggers" data-delay='0.4'>
+                            <div class="what__do__triggers__item__image">
+                                <svg width="96" height="40" viewBox="0 0 96 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                                    <circle class='js__animate__trigger--2--1' cx="76" cy="20" r="20" transform="rotate(-90 76 20)" fill="#E83E3E" fill-opacity="0.3" />
+                                    <circle class='js__animate__trigger--2--2' cx="48" cy="20" r="20" transform="rotate(-90 48 20)" fill="#F17777" />
+                                    <circle class='js__animate__trigger--2--3' cx="20" cy="20" r="20" transform="rotate(-90 20 20)" fill="#E83E3E" />
+                                </svg>
+                            </div>
+
+                            <div class="what__do__triggers__item__text">Сопровождаем и оповещаем на каждом этапе
+                                разработки.</div>
+                        </div>
+                        <div class="what__do__triggers__item js__animate__triggers" data-delay='0.6'>
+                            <div class="what__do__triggers__item__image">
+                                <svg width="62" height="60" viewBox="0 0 62 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path class='js__animate__trigger--3--1' d="M9.10353 -2.52621e-06L38 30L9.10353 60L0.00216233 50.5525L19.8016 30L1.0618e-05 9.44976L9.10353 -2.52621e-06Z" fill="#E83E3E" />
+                                    <ellipse class='js__animate__trigger--3--2' cx="50.5" cy="11" rx="11" ry="11.5" transform="rotate(-90 50.5 11)" fill="#E83E3E" fill-opacity="0.3" />
+                                    <ellipse class='js__animate__trigger--3--3' cx="50.5" cy="49" rx="11" ry="11.5" transform="rotate(-90 50.5 49)" fill="#E83E3E" fill-opacity="0.6" />
+                                </svg>
+                            </div>
+                            <div class="what__do__triggers__item__text">На каждом этапе проводится тщательный контроль качества с гарантией соответствия техническому заданию.</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="what__do__triggers__2">
+                <div class="container">
+                    <div class="what__do__triggers__2__title">Поэтому наши сайты</div>
+                    <div class="what__do__triggers__2__list">
+                        <div class="what__do__triggers__2__item js__animate__triggers_2" data-delay='0.2'>
+                            <img src="img/key.svg">
+                            <div class="what__do__triggers__2__item__text">Не нуждаются <br>в доработках</div>
+                        </div>
+                        <div class="what__do__triggers__2__item js__animate__triggers_2" data-delay='0.4'>
+                            <img src="img/speed.svg">
+                            <div class="what__do__triggers__2__item__text">Имеют высокую <br>скорость загрузки</div>
+                        </div>
+                        <div class="what__do__triggers__2__item js__animate__triggers_2" data-delay='0.6'>
+                            <img src="img/menu_mouse.svg">
+                            <div class="what__do__triggers__2__item__text">Имеют среднюю<br> конверсию 8%</div>
+                        </div>
+                        <div class="what__do__triggers__2__item js__animate__triggers_2" data-delay='0.8'>
+                            <img src="img/calendar.svg">
+                            <div class="what__do__triggers__2__item__text">Разрабатываются <br>в среднем за 36 дней
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+            <section class="what__do" id="what_do_id">
+                <div class="container">
+
+                    <div class="what__do__title">
+                        <div class="js__title__animate">
+                            <span>Что мы делаем</span>
+                        </div>
+                    </div>
+                    <div class="what__do__list">
+
+                        <div class="what__do__item js__animate__what_do" data-delay='0.2'>
+                            <div class="what__do__item__number">01</div>
+                            <a href="what_do/website_development/index.html" class="what_do_href">
+                                <div class="what__do__item__text js__btn__form__two" data-title='Разработка сайтов'>Разработка сайтов</div>
+                             </a>
+                        </div>
+                       
+
+                        <div class="what__do__item js__animate__what_do" data-delay='0.4'>
+                            <div class="what__do__item__number">02</div>
+                            <a href="what_do/seo/index.html" class="what_do_href">
+                                <div class="what__do__item__text js__btn__form__two" data-title='SEO-продвижение'>SEO-продвижение</div>
+                            </a>
+                        </div>
+
+                        <div class="what__do__item js__animate__what_do" data-delay='0.6'>
+                            <div class="what__do__item__number">03</div>
+                            <a href="what_do/android_ios/index.html" class="what_do_href">
+                                <div class="what__do__item__text js__btn__form__two" data-title='Android и iOS приложения'>Android и iOS приложения</div>
+                            </a>
+                        </div>
+
+                        <div class="what__do__item js__animate__what_do" data-delay='0.8'>
+                            <div class="what__do__item__number">04</div>
+                            <a href="what_do/website_maintenance/index.html" class="what_do_href">
+                                <div class="what__do__item__text js__btn__form__two" data-title='Сопровождение сайтов'>Сопровождение сайтов</div>
+                            </a>
+                        </div>
+
+                        <div class="what__do__item js__animate__what_do" data-delay='1'>
+                            <div class="what__do__item__number">05</div>
+                            <a href="what_do/social_networks/index.html" class="what_do_href">
+                                <div class="what__do__item__text js__btn__form__two" data-title='Оформление в соц. сетях'>Оформление в соц. сетях</div>
+                            </a>
+                        </div>
+
+                        <div class="what__do__item js__animate__what_do" data-delay='1.2'>
+                            <div class="what__do__item__number">06</div>
+                            <a href="what_do/design/index.html" class="what_do_href">
+                                <div class="what__do__item__text js__btn__form__two" data-title='Проектирование дизайна'>Проектирование дизайна</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <!-- <section class="portfolio js__porfolio" id="projects">
+            <div class="container">
+                <div class="portfolio_title">
+                    <div class="js__title__animate">
+                        <span>Наше портфолио - наша гордость</span>
+                    </div>
+                </div>
+                <div class="slider">
+                    <a href="./templates/bennebos">
+                        <div class="item">
+                            <img src="img/bennebos.jpg" alt="Первый слайд">
+                        </div>
+                    </a>
+
+                    <a href="./templates/dhome">
+                        <div class="item">
+                            <img src="img/dhome.jpg" alt="Второй слайд">
+                        </div>
+                    </a>
+
+                    <a href="./templates/best_care_doctors/html_net/dreamit/medical/index.html">
+                        <div class="item">
+                            <img src="img/doctors.jpg" alt="Третий слайд">
+                        </div>
+                    </a>
+
+                    <a href="./templates/gameing_shop/html_net/gaming-shop/index.html">
+                        <div class="item">
+                            <img src="img/gaming.jpg" alt="Четвертый слайд">
+                        </div>
+                    </a>
+
+                    <a href="./templates/garden">
+                        <div class="item">
+                            <img src="img/garden.jpg" alt="Пятый слайд">
+                        </div>
+                    </a>
+
+                    <a class="prev" onclick="minusSlide()">&#10094;</a>
+                    <a class="next" onclick="plusSlide()">&#10095;</a>
+                </div>
+                <br>
+
+                <div class="slider-dots">
+                    <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+                    <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+                    <span class="slider-dots_item" onclick="currentSlide(3)"></span> 
+                    <span class="slider-dots_item" onclick="currentSlide(4)"></span>
+                    <span class="slider-dots_item" onclick="currentSlide(5)"></span> 
+                </div>
+            </div>
+        </section> -->
+
+
+        <section class="payment">
+            <div class="container">
+                <div class="payment__decore__text">Выгодные условия</div>
+                <div class="payment__info">
+                    <div class="payment__title">
+                        <div class="js__title__animate">
+                            <span>Гибкие условия оплаты</span>
+                        </div>
+                    </div>
+                    <div class="payment__list">
+                        <div class="payment__item js__animate__top" style="float: left;">
+                            <div class="payment__item__icon">
+                                <img src="img/speed.svg" alt="">
+                            </div>
+                            <div class="payment__item__text">Разбивка платежей с гибким графиком оплат.</div>
+                        </div>
+                        <div class="payment__item js__animate__top" style="float: right;">
+                            <div class="payment__item__icon">
+                                <img src="img/speed.svg" alt="">
+                            </div>
+                            <div class="payment__item__text">
+                                Стоимость индивидуальной разработки начинается от 100 т.р.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <div class="responsive">
+            <div class="container">
+                <div class="responsive__top">
+                    <div class="responsive__title">
+                        <div class="js__title__animate">
+                            <span style="transform: translate(0px, 0px);">Несём ответственность</span>
+                        </div>
+                        <div class="js__title__animate">
+                            <span style="transform: translate(0px, 0px);">на всех этапах работы.</span>
+                        </div>
+                     </div>
+                </div>
+                <div class="responsive_content">
+                    <div class="responsive_text">
+                    <div class="responsive_text_left">
+                        <p>Создание и согласование технического задания.</p>
+                        <p>Подготовка договора и оплата.</p>
+                        <p>Разработка и согласование дизайн концепции.</p>
+                        <p>Адаптивная верстка.</p>
+                    </div>
+                    <div class="responsive_text_right">
+                        <p>Интеграция CMS.</p>
+                        <p>Тестирование и отладка сайта.</p>
+                        <p>Запуск сайта в работу.</p>
+                    </div>
+                    </div>
+                    <div class="responsive_img">
+                        <img class="ostrich" src="img/ostrich.png">
+                    </div>
+                    <img class="responsive_img_figure" src="img/keyboard.png">
+                </div>
+            </div>
+        </div>
+
+        <section class="question">
+            <div class="container">
+                <div class="question__image">
+                    <div class="question__image__1 js__question__image__1">
+                        <img src="img/question1.svg">
+                    </div>
+                    <div class="question__image__2 js__question__image__2">
+                        <img src="img/question2.svg">
+                    </div>
+                </div>
+                <div class="question__info">
+                    <div class="question__title">
+                        <div class="js__title__animate">
+                            <span>Оставить заявку</span>
+                        </div>
+                    </div>
+                    <div class="question__text">Если у вас есть вопросы или вы хотите отправить заявку, сделайте это через форму.</div>
+                    <form class="question__form js__form" action='javascript:void(0)' method="POST">
+                        <div class="question__form__row">
+                            <input type="text" name="name" placeholder="Ваше имя" required>
+                            <input type="tel" name="phone" placeholder="Номер телефона" required>
+                            <input type="hidden" name="formName" value='Остались вопросы'>
+                        </div>
+                        <div class="question__form__row__2">
+                            <button class="btn__default question__form__btn">Оставить заявку</button>
+                            <div class="question__form__row__text">Отправляя свои данные через форму, вы соглашаетесь с условиями обработки <a data-fancybox data-src="#js_modal__politic" href="javascript:;">персональных данных</a>.</div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+
+        <footer class="footer__main js__footer__main__animate" id='contact'>
+
+            <div class="footer__main__top">
+
+            <!--    <div class="footer_bg--sky"></div> -->
+                <div class="container">
+                    <div class="footer__tag">Контакты</div>
+                    <div class="footer__title">
+
+                        <div class="js__title__animate">
+                            <span>Мы находимся в Новосибирске,</span>
+                        </div>
+
+                        <div class="js__title__animate">
+                            <span>но работаем по
+                                всему миру</span>
+                        </div>
+                    </div>
+
+                    <div class="footer__contact">
+                        <a href="tel:+7 (993) 002 93 37" class="footer__phone">+7 (993) 002 93 37</a>
+                        <a href="mailto:web.sun.web@yandex.ru" class="footer__mail">web.sun.web@yandex.ru</a>
+
+                        <div class="footer__social">
+
+
+                            <a href="https://telegram.me/pol_sz" target="_blank">
+                                <svg width="42" height="40" viewBox="0 0 42 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M35.8202 6.1947L5.72294 17.5897C3.66892 18.3997 3.68081 19.5247 5.34609 20.0264L13.0732 22.393L30.9516 11.318C31.797 10.813 32.5694 11.0847 31.9345 11.638L17.4495 24.473H17.4461L17.4495 24.4747L16.9165 32.2947C17.6973 32.2947 18.0419 31.943 18.4799 31.528L22.2331 27.9447L30.0401 33.6064C31.4796 34.3847 32.5134 33.9847 32.8716 32.298L37.9964 8.5847C38.5209 6.5197 37.1935 5.5847 35.8202 6.1947V6.1947Z" stroke="#F9F6F6" stroke-width="2" />
+                                    <rect x="1.24072" y="0.5" width="39.7407" height="39" stroke="#111111" />
+                                </svg>
+                            </a>
+
+                            <a href="https://wa.me/+79930029337" target="_blank" class='whatsapp__footer'>
+                                <svg x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512">
+                                    <path d="M384.139,308.237l-27.134-27.134c-7.403-7.403-17.635-11.113-28.053-10.176c-10.426,0.935-19.827,6.404-25.794,15.003    l-9.452,13.621c-12.854-2.29-37.721-8.771-55.103-26.154c-17.389-17.39-23.869-42.268-26.155-55.103l13.624-9.453    c8.6-5.968,14.069-15.371,15.002-25.797c0.935-10.426-2.775-20.65-10.176-28.05l-27.134-27.134    c-10.904-10.903-27.339-13.505-40.899-6.479c-23.776,12.318-39.394,35.408-43.982,65.016    c-7.473,48.239,14.828,105.149,58.199,148.52c37.826,37.826,85.947,59.624,129.634,59.624c6.406,0,12.718-0.469,18.885-1.424    c29.61-4.586,52.7-20.206,65.017-43.981c0,0,0,0,0.001,0C397.644,335.574,395.041,319.139,384.139,308.237z M363.01,334.832    c-9.789,18.894-28.334,25.414-42.168,27.557c-38.035,5.89-85.835-13.521-121.774-49.459    c-35.937-35.938-55.351-83.736-49.459-121.773c2.142-13.834,8.664-32.378,27.558-42.168c0.512-0.264,1.078-0.393,1.652-0.393    c1.056,0,2.14,0.435,2.956,1.25l27.135,27.135c1.127,1.129,1.271,2.411,1.192,3.288c-0.079,0.878-0.447,2.114-1.759,3.024    l-21.433,14.872c-4.482,3.11-7.007,8.344-6.65,13.788c0.135,2.056,3.671,50.744,36.355,83.428    c32.684,32.685,81.372,36.223,83.428,36.356c5.44,0.35,10.679-2.168,13.789-6.651l14.872-21.433    c0.909-1.31,2.146-1.679,3.023-1.758c0.879-0.081,2.16,0.065,3.29,1.193l27.134,27.133    C363.412,331.481,363.764,333.377,363.01,334.832z" fill="#fff" data-original="#000000" class=""></path>
+                                    <path d="M437.016,74.984C388.662,26.629,324.374,0,255.99,0S123.318,26.629,74.964,74.983    C33.867,116.08,7.777,170.471,1.497,228.137c-5.937,54.515,5.911,110.004,33.399,157.041L8.218,484.74    c-1.438,5.365,0.096,11.09,4.025,15.018c3.927,3.927,9.654,5.461,15.016,4.024l99.562-26.677    C165.925,499.957,210.874,512,256.245,512c9.203,0,18.424-0.495,27.617-1.497c57.666-6.279,112.058-32.37,153.154-73.468    C485.371,388.682,512,324.392,512,256.01S485.37,123.338,437.016,74.984z M415.029,415.048    c-74.331,74.331-188.5,87.539-277.637,32.124c-2.488-1.545-5.335-2.343-8.21-2.343c-1.346,0-2.698,0.175-4.023,0.53    l-79.937,21.419l21.42-79.936c1.112-4.153,0.455-8.582-1.814-12.232C9.411,285.469,22.621,171.3,96.95,96.97    c87.696-87.694,230.384-87.694,318.079,0C502.723,184.664,502.723,327.354,415.029,415.048z" fill="#fff" data-original="#000000" class=""></path>
+                                </svg>
+                            </a>
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- start footer -->
+
+
+<div class="footer__bottom">
+    <div class="container">
+        <div class="footer__left">
+            <a href="" class="footer__logo">
+                <img src="img/logo_sun_white.png">
+            </a>
+            <div class="footer__copyright">© 2016-2023</div>
+        </div>
+        <div class="footer__menu">
+            <ul>
+                <li><a class='js_footer__menu__link' href="#about">О студии</a></li>
+                <li><a class='js_footer__menu__link' href="#brief">Этапы</a></li>
+                <li><a class='js_footer__menu__link' href="#what_do_id">Проекты</a></li>
+                <li><a class='js_footer__menu__link' href="#contact">Контакты</a></li>
+                <li class='footer__menu__link__politic_wrap'><a class='footer__menu__link__politic'  data-fancybox data-src="#js_modal__politic" href="javascript:;">Политика конфиденциальности</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<!-- окно Покупка в один клик -->
+
+<!-- <div id="js_modal__three" class="modal__default modal__three">
+    <div class="modal__inner modal__inner--three">
+        <div class="modal__three__inner">
+            <div class="modal__thre__inner__image">
+                <div class="modal__thre__inner__image__inner">
+                    <img src="img/modal/1.png" class='js__modal__thre__inner__image'>
+                    <div class="modal__thre__inner__image__info js_modal__thre__inner__image__info">
+                        <div class="modal__thre__inner__image__title">Влас Соломяный</div>
+                        <div class="modal__thre__inner__image__subtitle">Project manager с 8 летним опытом разработки</div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal__three__content">
+                <div class="modal__title">Запишитесь<br> на online-интервью</div>
+                <div class="modal__sub__title modal__sub__title--middle">Познакомимся и обсудим интересующие вас вопросы</div>
+
+                <form action='javascript:void(0)' method="POST" class="modal__form js__form">
+                    <div class="modal__form__row">
+                        <div class="modal__form__item">
+                            <input type="text" name="name" required placeholder="Ваше имя">
+                        </div>
+                        <div class="modal__form__item">
+                            <input type="tel" name="phone" required placeholder="Номер телефона">
+                        </div>
+                        <input type="hidden" name="formName" class='js_modal__three__title'>
+                    </div>
+                    <div class="modal__form__row__btn--row">
+                        <button class="btn__default btn__modal btn__modal__3">Записаться</button>
+                        <div class="modal__form__row__btn--row__text">
+                        Отправляя свои данные через форму, вы  соглашаетесь с условиями  <a data-fancybox data-src="#js_modal__politic" href="javascript:;">персональных данных</a>.</div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+
+<div id="js_modal__two" class="modal__default modal__two">
+    <div class="modal__inner modal__inner--zero">
+        <div class="modal__two__inner">
+            <div class="modal__two__inner__image"></div>
+            <div class="modal__two__content">
+                <div class="modal__title">Хотите лучший проект?</div>
+                <div class="modal__sub__title">Давайте подберем решение под ваши задачи</div>
+
+                <form action='javascript:void(0)' method="POST" class="modal__form js__form">
+                    <div class="modal__form__row">
+                        <div class="modal__form__item">
+                            <input type="text" name="name" required placeholder="Ваше имя">
+                        </div>
+                        <div class="modal__form__item">
+                            <input type="tel" name="phone" required placeholder="Номер телефона">
+                        </div>
+                    </div>
+                    <div class="modal__form__row__text">
+                        Отправляя свои данные через форму, вы  соглашаетесь с условиями обработки <a data-fancybox data-src="#js_modal__politic" href="javascript:;">персональных данных</a>.
+                    </div>
+                    <div class="modal__form__row__btn">
+                        <button class="btn__default btn__modal btn__modal__2">Получить подбор решения</button>
+                    </div>
+                    <input type="hidden" name="formName" class='js_modal__two__title'>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="js_modal__one" class="modal__default modal__one">
+    <div class="modal__inner">
+        <div class="modal__inner__leave__message">
+            <div class="modal__title">Оставьте заявку</div>
+            <form action='javascript:void(0)' method="POST" class="modal__inner__leave__message__form js__form">
+                <div class="modal__inner__leave__row">
+                    <div class="modal__inner__leave__item">
+                        <input type="text" name="name" required placeholder="Ваше имя">
+                    </div>
+                    <div class="modal__inner__leave__item">
+                        <input type="tel" name="phone" required placeholder="Номер телефона">
+                    </div>
+                </div>
+                <div class="modal__inner__leave__item">
+                    <textarea name="comment" placeholder='Комментарий (необязательно)'></textarea>
+                </div>
+                <div class="modal__inner__leave__item__bottom">
+                    <button class="btn__default btn__modal__inner__leave">Отправить заявку</button>
+                    <div class="modal__inner__leave__item__bottom_text">Отправляя свои данные через форму, вы соглашаетесь на обработку <a data-fancybox data-src="#js_modal__politic" href="javascript:;">персональных данных</a></div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+
+
+<div id="js_modal__politic" class="modal__default modal__text">
+    <div class="modal__inner modal__inner--text">
+        <div class="modal__text">
+            <div class="modal__title">Политика конфиденциальности</div>
+            <p>Я, являясь субъектом персональных данных, принимаю решение о предоставлении ИП Соломяный Влас Юрьевич ИНН 772411663523, ОГРНИП 316774600187447, 115597, Москва, ул. Ясеневая, д.34, кв. 359 (далее разработчик) моих персональных данных и даю ему согласие на их обработку в объеме и порядке, предусмотренном в настоящем согласии. Разработчик является специализированным исполнителем, основным видом деятельности которого является разработка компьютерного программного обеспечения. Разработчику передаются следующие сведения:</p>
+            <ul>
+                <li>фамилия, имя, отчество;</li>
+                <li>номер телефона, адрес электронной почты;</li>
+                <li>сведения о деятельности компании/физического лица, описание и сведения о продукте, который, возможно, будет заказан у разработчика, сведения о желаемом бюджете и сроках;</li>
+            </ul>
+
+            <p>Обработка персональных данных разработчиком может осуществляться в следующих целях:</p>
+
+            <ul>
+                <li>оформление и рассмотрение обращений субъекта на получение услуги, оказываемой разработчиком, заключение с субъектом соответствующих гражданско-правовых договоров;</li>
+                <li>информирование субъекта об услугах, оказываемых разработчиком, и (или) третьими лицами, привлеченными разработчиком на основе агентирования, о возможности применения к субъекту программ лояльности, скидок и иных льготных условий.</li>
+            </ul>
+
+            <p>Оператору предоставляется право осуществлять следующие действия с персональными данными (с использованием средств автоматизации либо без таковых):</p>
+
+            <ul>
+                <li>систематизация, накопление, хранение, уточнение (обновление, изменение); использование; блокирование; уничтожение; обезличивание, а также сбор, распространение и передачу в установленных настоящим согласием случаях;</li>
+                <li>сбор и последующая обработка данных о субъекте, находящихся в открытых источниках – любых персональных данных, доступ неограниченного круга лиц к которым предоставлен субъектом либо по его просьбе посредством сети Интернет (интернет-порталах, форумах и иных общедоступных в сети Интернет сервисах), а также содержащихся в общедоступных источниках персональных данных (справочниках, официальных сервисах органов государственной власти);</li>
+                <li>осуществление информационных рассылок о товарах и услугах, оказываемых разработчиком, и (или) его партнерами (агентами), о возможности применения к субъекту программ лояльности, скидок и иных льготных условий (при этом субъект выражает свое согласие на получение таких рассылок с использованием почтовых отправлений телефонной связи (СМС-рассылки) и (или) сети Интернет, на бумажном носителе или в электронном виде).</li>
+            </ul>
+
+            <p>Согласие может быть отозвано субъектом полностью или в части путем направления разработчику заявления (отзыва) заверенного нотариально, либо лично путем вручения заявления разработчику под расписку, при этом отзыв согласия не лишает права разработчика на обработку персональных данных, необходимых для исполнения разработчика требований действующего законодательства и осуществления прав и обязанностей оператора, установленных договором об оказании возмездной услуги.</p>
+            <p>Субъект дает согласие на обработку своих персональных данных в объеме, установленном настоящим согласием, третьими лицами, указанными выше.</p>
+            <p>Субъект подтверждает, что ознакомлен с правами и обязанностями в области защиты персональных данных, в том числе с возможными последствиями в случае отказа (отзыва) от согласия на обработку персональных данных.</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+        </footer>
+    </div>
+    <script src="js/jquery.min.js"></script>
+<script src="js/fancybox.umd.js"></script>
+<script src="js/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script type='text/javascript' src='js/gsap.min.js?ver=5.9.2' id='gsap-js'></script>
+<script type='text/javascript' src='js/ScrollTrigger.min.js?ver=5.9.2' id='ScrollTrigger-js'></script>
+
+<script type='text/javascript' src='js/flickity.pkgd.min.js' id='flickity-js'></script>
+
+<script src="js/main.js?1669724000"></script>
+<script src="js/calculation.js?1669724000"></script>
+
+</body>
+
+</html>

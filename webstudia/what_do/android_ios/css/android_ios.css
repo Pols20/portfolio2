@@ -1,0 +1,153 @@
+.algorithm {
+	padding: 0 0 2% 0;
+}
+.footer_page {
+	padding: 2% 0;
+	color: #fff;
+}
+.what__do__list a {
+	text-decoration: none;
+	color: #fff;
+}
+.what__do__list a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+.about_ios {
+	padding: 2% 0;
+}
+.about_ios p, .stages p, .stages_2 p, .stages_3 p, .stages_4 p {
+	margin-bottom: 1%;
+}
+.img_1_ios {
+	background-image: url(../img/red_circle.svg);
+	background-position: 60% 5%;
+	background-repeat: no-repeat;
+	background-size: 15%;
+}
+.st_b {
+	font-weight: 600;
+}
+.stages {
+	padding: 2% 0;
+	background-color: #000;
+	color: #fff;
+}
+.stages h2, .stages h3, .stages_2 h2, .stages_2 h3, .stages_3 h3, .stages_3 h2, .stages_4 h2, .stages_4 h3 {
+	margin-bottom: 1%;
+}
+.stages li, .stages_2 li, .stages_3 li, .stages_4 li {
+	margin-left: 2%;
+	margin-top: 0.5%;
+}
+.img_2_ios {
+	background-image: url(../img/red_circle.svg);
+	background-position: 90% 10%;
+	background-repeat: no-repeat;
+	background-size: 10%;
+}
+.img_3_ios {
+	background-image: url(../img/red_circle.svg);
+	background-position: 20% 80%;
+	background-repeat: no-repeat;
+	background-size: 7%;
+}
+.stages_2 {
+	padding: 2% 0;
+}
+.img_4_ios {
+	background-image: url(../img/red_circle.svg);
+	background-position: 80% 20%;
+	background-repeat: no-repeat;
+	background-size: 15%;
+}
+.img_5_ios {
+	background-image: url(../img/red_circle.svg);
+	background-position: 30% 10%;
+	background-repeat: no-repeat;
+	background-size: 7%;
+}
+.img_6_ios {
+	background-image: url(../img/red_circle.svg);
+	background-position: 95% 90%;
+	background-repeat: no-repeat;
+	background-size: 5%;
+}
+.stages_3 {
+	padding: 2% 0;
+	background-color: #000;
+	color: #fff;
+}
+.img_7_ios {
+	background-image: url(../img/red_circle.svg);
+	background-position: 75% 10%;
+	background-repeat: no-repeat;
+	background-size: 15%;
+}
+.img_8_ios {
+	background-image: url(../img/red_circle.svg);
+	background-position: 10% 90%;
+	background-repeat: no-repeat;
+	background-size: 5%;
+}
+.stages_4 {
+	padding: 2% 0;
+}
+.img_9_ios {
+	background-image: url(../img/red_circle.svg);
+	background-position: 90% 30%;
+	background-repeat: no-repeat;
+	background-size: 10%;
+}
+.img_10_ios {
+	background-image: url(../img/red_circle.svg);
+	background-position: 20% 70%;
+	background-repeat: no-repeat;
+	background-size: 7%;
+}
+@media screen and (max-width:800px) {
+	.footer_page {
+		padding: 2% 0 5% 0;
+	}
+	.footer__menu__link__politic {
+		display: none;
+	}
+}
+@media screen and (max-width:768px) {
+	.footer__menu a {
+		font-size: 11px;
+	}
+	.about_ios h1, .js__title__animate span {
+		font-size: 22px;
+	}
+	.stages h2, .stages_2 h2, .stages_3 h2, .stages_4 h2 {
+		font-size: 20px;	
+	}
+	.about_ios p, .stages p, .stages_2 p, .stages_3 p, .stages_4 p  {
+		font-size: 14px;
+	}
+	.stages li, .stages_2 li, .stages_3 li, .stages_4 li {
+		font-size: 14px;
+	}
+	.stages h3, .stages_2 h3, .stages_3 h3, .stages_4 h3 {
+		font-size: 17px;
+	}
+	.what__do__item__text {
+		font-size: 17px;
+	}
+}
+
+@media screen and (max-width:530px) {
+	.about_ios h1, .js__title__animate span {
+		font-size: 20px;
+	}
+	.stages h2, .stages_2 h2, .stages_3 h2, .stages_4 h2 {
+		font-size: 18px;	
+	}
+	.about_ios p, .stages p, .stages_2 p, .stages_3 p, .stages_4 p, .stages li, .stages_2 li, .stages_3 li, .stages_4 li {
+		font-size: 12px;
+	}
+	.stages h3, .stages_2 h3, .stages_3 h3, .stages_4 h3, .what__do__item__text {
+		font-size: 15px;	
+	}
+}

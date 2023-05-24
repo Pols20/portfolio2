@@ -1,0 +1,794 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 100% "Roboto", sans-serif;
+  background-color: #fff;
+}
+
+.full-container {
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.banner {
+  background: linear-gradient(0.25turn, #f6f6f8, #ededef);
+  height: 350px;
+}
+.banner-content {
+  text-align: center;
+  overflow: hidden;
+}
+.leavs-img-1, .leavs-img-2 {
+  height: 350px;
+  position: absolute;
+}
+
+.leavs-img-2 {
+  right: 0.1px;
+}
+.banner-img {
+  height: 350px;
+  margin: 0 auto;
+  z-index: 0;
+}
+@font-face {
+  font-family: 'ArbatC'; 
+  src: url(../fonts/arbat.ttf); 
+}
+.banner-text {
+  font-family: "ArbatC";
+  font-size: 51px;
+  position: absolute;
+  left: 45.5%;
+  top: 7%;
+}
+.buttons {
+  position: absolute;
+  font-size: 20px;
+  width: 100%;
+}
+.buttons li {
+  font-size: 22px;
+  width: 230px;
+  margin-bottom: 6%;
+  list-style-type: none;
+  background-color: #fff;
+  padding: 2%;
+  border: none;
+  border-radius: 50px;
+}
+.buttons li img {
+  width: 25px;
+  float: left;
+  margin-left: 9%;
+}
+.buttons .first-ul {
+  position: relative;
+  float: left;
+  margin-left: 15%;
+}
+.buttons .second-ul {
+  position: relative;
+  float: right;
+  margin-right: 15%; 
+}
+.buttons .first-ul, .buttons .second-ul {
+  margin-top: 13%;
+}
+.banner .buttons a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+.banner .buttons li:hover {
+  background-color: #d79dff;
+}
+.all-content {
+  padding-top: 4%;
+  /*padding-bottom: 2%;*/
+  background-image: url(../img/family-1.png);
+  background-position: 88% 33%;
+  background-repeat: no-repeat;
+  background-size: 4%;
+}
+.all-content .container {
+  background-image: url(../img/baby-1.png);
+  background-position: 20% 41%;
+  background-repeat: no-repeat;
+  background-size: 4%;
+}
+.all-content p {
+  font-size: 18px;
+  margin-bottom: 2%;
+}
+.all-content .container .achor-header {
+  color: #643c80;
+}
+
+.b {
+  font-family: "ArbatC";
+  font-size: 20px;
+  font-weight: 600;
+}
+.all-content ul{
+    list-style: none;
+}
+.all-content ul li {
+  font-size: 18px;
+  padding-left: 20px;
+  position: relative;
+  margin: 10px;
+}
+.all-content ul li:before{
+    content: '✔';
+    position: absolute; top: 0; left: 0;
+    color: #000;
+}
+.button-href {
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.button-href a {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+.button-href .but {
+  width: 250px;
+  height: 50px;
+  background-color: #643c80;
+  padding: 1%;
+  text-align: center;
+  font-size: 18px;
+  font-family: "ArbatC";
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.button-href .but:hover {
+  text-decoration: underline;
+  padding: 1.3%;
+  transition: All 0.5s ease;
+}
+
+
+.for-babys {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #d79dff;
+}
+
+.for-babys .baby-content img, .for-adult .adult-content img, .for-family .family-content img, .for-metrika .metrika-content img, .for-calendar .calendar-content img, .for-poster .poster-content img  {
+  height: 400px !important;
+  box-shadow: 0 0 10px rgba(0,0,0,0.7);
+  border-radius: 15px;
+}
+.baby-content, .adult-content, .family-content, .metrika-content, .calendar-content, .poster-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 2%;
+}
+.metrika-content {
+  justify-content: space-around;
+}
+.metrika-content .metrika3 {
+  margin-top: 2%;
+}
+.calendar-content {
+  justify-content: space-around;
+}
+.calendar-content .calendar3 {
+  margin-top: 2%;
+}
+.for-babys h2, .for-adult h2, .for-family h2, .for-metrika h2, .for-calendar h2, .for-poster h2 {
+  margin-bottom: 2%;
+  font-family: "ArbatC";
+  font-size: 35px;
+  text-align: center;
+}
+.all-baby-content .baby-text p, .all-adult-content .adult-text p, .all-family-content .family-text p, .all-metrika-content .metrika-text p, .all-calendar-content .calendar-text p, .all-poster-content .poster-text p{
+  font-size: 18px;
+  margin-bottom: 2%;
+}
+.all-baby-content .baby-text ul, .all-adult-content .adult-text ul, .all-family-content .family-text ul, .all-metrika-content .metrika-text ul, .all-calendar-content .calendar-text ul, .all-poster-content .poster-text ul {
+  list-style: none;
+  margin-bottom: 2%;
+}
+.all-baby-content .baby-text ul li, .all-adult-content .adult-text ul li, .all-family-content .family-text ul li, .all-metrika-content .metrika-text ul li, .all-calendar-content .calendar-text ul li, .all-poster-content .poster-text ul li {
+    padding-left: 20px;
+    position: relative;
+    margin: 10px;
+    font-size: 18px;
+}
+.all-baby-content .baby-text ul li:before, .all-adult-content .adult-text ul li:before, .all-family-content .family-text ul li:before, .all-metrika-content .metrika-text ul li:before, .all-calendar-content .calendar-text ul li:before, .all-poster-content .poster-text ul li:before{
+    content: '✔';
+    position: absolute; top: 0; left: 0;
+    color: #000;
+}
+
+.for-adult {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #efeff1;
+}
+
+.for-family {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #d79dff;
+}
+.family-text a {
+  cursor: pointer;
+}
+.family-text a:hover {
+  color: #530d85;
+}
+.for-metrika {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #efeff1;
+}
+.for-calendar {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #d79dff;
+}
+.calendar-text a {
+  cursor: pointer;
+}
+.calendar-text a:hover {
+  color: #530d85;
+}
+.for-poster {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #efeff1;
+}
+
+.for-poster .button-href {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/*@media screen and (max-width:1200px) {
+  .for-metrika .metrika-content .metrika3 {
+    margin: 0 9px;
+    margin-top: 2%;
+  }
+}
+*/
+@media screen and (max-width:1180px) {
+  .for-metrika .metrika-content img {
+    height: 350px !important;
+  }
+}
+
+
+@media screen and (max-width:1170px) {
+  .for-babys .baby-content .baby2 {
+    margin: 0 9px;
+  }
+}
+@media screen and (max-width:1169px) {
+  .baby-content {
+    justify-content: space-around;
+  }
+  .for-babys .baby-content .baby3 {
+    margin-top: 2%;
+  }
+}
+
+@media screen and (max-width:1140px) {
+  
+  .buttons li {
+    width: 220px;
+  }
+  .buttons .first-ul {
+    margin-left: 12%;
+  }
+  .buttons .second-ul {
+    margin-right: 12%;
+  }
+}
+@media screen and (max-width:1090px) {
+  .baby-content, .adult-content, .family-content, .metrika-content, .calendar-content, .poster-content {
+    justify-content: space-around;
+  }
+  .for-poster .poster-content .poster2 img {
+    margin-right: 7px;
+    margin-left: 7px;
+  }
+
+}
+@media screen and (max-width:1060px) {
+  .buttons li {
+    width: 210px;
+    font-size: 20px;
+  }
+  .buttons .first-ul {
+    margin-left: 8%;
+  }
+  .buttons .second-ul {
+    margin-right: 8%;
+  }
+  .buttons .first-ul, .buttons .second-ul {
+    margin-top: 16%;
+  }
+  .baby2, .adult2, .family2, .metrika2, .calendar2 {
+    margin-right: 7px;
+    margin-left: 7px;
+  }
+}
+@media screen and (max-width:1050px) {
+  .for-metrika .metrika-content img {
+    height: 320px !important;
+  }
+}
+@media screen and (max-width:1019px) {
+  .family3 {
+    margin-top: 2%;
+  }
+}
+@media screen and (max-width:960px) {
+  .for-metrika .metrika-content img {
+    height: 300px !important;
+  }
+}
+@media screen and (max-width:950px) {
+  .banner-text {
+    font-size: 48px;
+  }
+  .buttons li {
+    width: 200px;
+  }
+  .buttons .first-ul, .buttons .second-ul {
+    margin-top: 19%;
+  }
+  .buttons .first-ul {
+    margin-left: 6%;
+  }
+  .buttons .second-ul {
+    margin-right: 6%;
+  }
+}
+@media screen and (max-width:911px) {
+  .poster3 {
+    margin-top: 2%;
+  }
+}
+@media screen and (max-width:903px) {
+  .for-metrika .metrika-content img {
+    height: 280px !important;
+  }
+}
+@media screen and (max-width:902px) {
+  .adult3 {
+    margin-top: 2%;
+  }
+  .calendar2 {
+    margin-top: 2%;
+  }
+}
+@media screen and (max-width:900px) {
+  .banner {
+    height: 300px;
+  }
+  .leavs-img-1, .leavs-img-2 {
+    height: 300px;
+  }
+  .banner-img {
+    height: 300px;
+  }
+  .banner-text {
+    font-size: 40px;
+  }
+  .buttons .first-ul, .buttons .second-ul {
+    margin-top: 16%;
+  }
+  .buttons li {
+    width: 180px;
+    font-size: 18px;
+  }
+  .buttons li img {
+    width: 22px;
+  }
+  .all-content p {
+    font-size: 16px;
+    margin-bottom: 1.5%;
+  }
+  .b {
+    font-size: 19px;
+  }
+  .all-content ul li {
+    font-size: 16px;
+  }
+  .button-href .but {
+    padding: 1.5%;
+    font-size: 16px;
+  }
+  .for-babys h2, .for-adult h2, .for-family h2, .for-metrika h2, .for-calendar h2, .for-poster h2 {
+    font-size: 30px;
+  }
+  .all-baby-content .baby-text p, .all-adult-content .adult-text p, .all-family-content .family-text p, .all-metrika-content .metrika-text p, .all-calendar-content .calendar-text p, .all-poster-content .poster-text p {
+    font-size: 16px;
+    margin-bottom: 1.5%;
+  }
+  /*.for-babys .baby-content img, .for-adult .adult-content img, .for-family .family-content img, .for-metrika .metrika-content img, .for-calendar .calendar-content img {
+    height: 450px !important;
+  }*/
+  .all-baby-content .baby-text ul li, .all-adult-content .adult-text ul li, .all-family-content .family-text ul li, .all-metrika-content .metrika-text ul li, .all-calendar-content .calendar-text ul li, .all-poster-content .poster-text ul li {
+    font-size: 16px;
+  }
+  /*.for-poster .poster-content img {
+    height: 250px !important;
+  }*/
+}
+@media screen and (max-width:847px) {
+  .metrika2 {
+    margin-top: 2%;
+  }
+}
+@media screen and (max-width:830px) {
+  .buttons {
+    width: 95%;
+  }
+  .buttons .first-ul, .buttons .second-ul {
+    margin-top: 19%;
+  }
+}
+@media screen and (max-width:824px) {
+  .metrika3 img {
+    width: 397.25px;
+  }
+}
+@media screen and (max-width:790px) {
+  .buttons li {
+    width: 160px;
+    font-size: 16px;
+    padding: 3%;
+  }
+  .buttons li img {
+    width: 20px;
+  }
+  .banner-text {
+    font-size: 35px;
+  }
+  .buttons .first-ul, .buttons .second-ul {
+    margin-top: 21%;
+  }
+}
+@media screen and (max-width:768px) {
+  .leavs-img-1, .leavs-img-2 {
+    height: 270px;
+  }
+  .banner-img {
+    height: 270px;
+  }
+  .banner {
+    height: 270px;
+  }
+  .buttons .first-ul, .buttons .second-ul {
+    margin-top: 18%;
+  }
+  .banner-text {
+    font-size: 30px;
+  }
+  .all-content p {
+    font-size: 15px;
+    margin-bottom: 1%;
+  }
+  .b {
+    font-size: 17px;
+  }
+  .all-content ul li {
+    font-size: 15px;
+  }
+  .button-href .but {
+    font-size: 15px;
+  }
+  .for-babys h2, .for-adult h2, .for-family h2, .for-metrika h2, .for-calendar h2, .for-poster h2 {
+    font-size: 25px;
+  }
+  .all-baby-content .baby-text p, .all-adult-content .adult-text p, .all-family-content .family-text p, .all-metrika-content .metrika-text p, .all-calendar-content .calendar-text p, .all-poster-content .poster-text p {
+    font-size: 15px;
+    margin-bottom: 1%;
+  }
+  /*.for-babys .baby-content img, .for-adult .adult-content img, .for-family .family-content img, .for-metrika .metrika-content img, .for-calendar .calendar-content img {
+    height: 400px !important;
+  }*/
+  .all-baby-content .baby-text ul li, .all-adult-content .adult-text ul li, .all-family-content .family-text ul li, .all-metrika-content .metrika-text ul li, .all-calendar-content .calendar-text ul li, .all-poster-content .poster-text ul li {
+    font-size: 15px;
+  }
+  .baby-content, .adult-content, .family-content, .metrika-content, .calendar-content, .poster-content {
+    margin-top: 2%;
+  }
+}
+@media screen and (max-width:750px) {
+  .banner {
+    height: 262px;
+    background-image: url(../img/girl2.png);
+  }
+  .leavs-img-1, .leavs-img-2 {
+    display: none;
+  }
+  .banner-img {
+    display: none;
+  }
+  .buttons {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width:736px) {
+  .family2 {
+    margin-top: 2%;
+  }
+}
+@media screen and (max-width:710px) {
+  .banner {
+    height: 248px;
+    background-size: 710px;
+  }
+  .buttons li {
+    width: 150px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width:700px) {
+  .for-babys .baby-content img, .for-adult .adult-content img, .for-family .family-content img, .for-calendar .calendar-content img, .for-poster .poster-content img {
+    height: 350px !important;
+  }
+  .family2 {
+    margin-top: 0%;
+  }
+}
+
+
+@media screen and (max-width:660px) {
+  .banner {
+    height: 231px;
+    background-size: 660px;
+  }
+  .banner-text {
+    font-size: 27px;
+  }
+  .buttons li {
+    width: 140px;
+  }
+}
+@media screen and (max-width:651px) {
+  .family2 {
+    margin-top: 2%;
+  }
+}
+@media screen and (max-width:627px) {
+  .family2 {
+    margin-top: 2%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .banner {
+    height: 210px;
+    background-size: 600px;
+  }
+  .buttons li {
+    width: 130px;
+    font-size: 13px;
+  }
+  .buttons li img {
+    width: 17px;
+  }
+  .buttons .first-ul {
+    margin-left: 3%;
+  }
+  .buttons .second-ul {
+    margin-right: 3%;
+  }
+}
+@media screen and (max-width:557px) {
+  .for-babys .baby-content img, .for-adult .adult-content img, .for-family .family-content img, .for-calendar .calendar-content img, .for-poster .poster-content img {
+    height: 300px !important;
+  }
+}
+@media screen and (max-width:540px) {
+  .banner {
+    height: 189px;
+    background-size: 540px;
+  }
+  .banner-text {
+    font-size: 24px;
+  }
+  .buttons li {
+    width: 120px;
+    font-size: 12px;
+  }
+  .buttons li img {
+    width: 15px;
+  }
+}
+@media screen and (max-width:485px) {
+  .poster2 {
+    margin-top: 2%;
+  }
+}
+@media screen and (max-width:482px) {
+  .for-babys .baby-content .baby2 {
+    margin-top: 2%;
+  }
+}
+@media screen and (max-width:480px) {
+  .banner {
+    height: 168px;
+    background-size: 480px;
+    background-repeat: no-repeat;
+  }
+  .buttons li {
+    width: 100px;
+    font-size: 11px;
+  }
+  .buttons li img {
+    display: none;
+  }
+  .banner-text {
+    font-size: 22px;
+  }
+  .all-content p {
+    font-size: 14px;
+  }
+  .all-content ul li {
+    font-size: 14px;
+  }
+  .button-href .but {
+    font-size: 14px;
+    padding: 2%;
+  }
+  .all-baby-content .baby-text p, .all-adult-content .adult-text p, .all-family-content .family-text p, .all-metrika-content .metrika-text p, .all-calendar-content .calendar-text p, .all-poster-content .poster-text p {
+    font-size: 14px;
+  }
+  .for-babys h2, .for-adult h2, .for-family h2, .for-metrika h2, .for-calendar h2, .for-poster h2 {
+    font-size: 20px;
+  }
+  .all-baby-content .baby-text ul li, .all-adult-content .adult-text ul li, .all-family-content .family-text ul li, .all-metrika-content .metrika-text ul li, .all-calendar-content .calendar-text ul li, .all-poster-content .poster-text ul li {
+    font-size: 14px;
+  }
+  .for-babys .baby-content .baby3 img {
+    height: 250px !important;
+  }
+  .for-metrika .metrika-content img {
+    height: 250px !important;
+  }
+  .for-metrika .metrika-content .metrika3 img {
+    width: 354.69px;
+  }
+  .calendar-content .calendar3 img, .calendar-content .calendar2 img {
+    height: 250px !important;
+  }
+}
+@media screen and (max-width:478px) {
+  .adult2 {
+    margin-top: 2%;
+  }
+}
+@media screen and (max-width:470px) {
+  .button-href .but {
+    width: 200px;
+  }
+}
+@media screen and (max-width:430px) {
+  .banner {
+    height: 150px;
+    background-size: 430px;
+  }
+  .buttons li {
+    width: 90px;
+  }
+  .banner-text {
+    left: 27.5%;
+  }
+  .all-content p {
+    font-size: 13px;
+  }
+  .b {
+    font-size: 15px;
+  }
+  .all-content ul li {
+    font-size: 13px;
+  }
+  .button-href .but {
+    font-size: 13px;
+  }
+  .for-babys h2, .for-adult h2, .for-family h2, .for-metrika h2, .for-calendar h2, .for-poster h2 {
+    font-size: 18px;
+  }
+  .all-baby-content .baby-text p, .all-adult-content .adult-text p, .all-family-content .family-text p, .all-metrika-content .metrika-text p, .all-calendar-content .calendar-text p, .all-poster-content .poster-text p {
+    font-size: 13px;
+  }
+  .all-baby-content .baby-text ul li, .all-adult-content .adult-text ul li, .all-family-content .family-text ul li, .all-metrika-content .metrika-text ul li, .all-calendar-content .calendar-text ul li, .all-poster-content .poster-text ul li {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width:410px) {
+  .calendar-content .calendar3 img, .calendar-content .calendar2 img {
+    height: 200px !important;
+  }
+  .for-metrika .metrika-content img {
+    height: 200px !important;
+  }
+  .for-metrika .metrika-content .metrika3 img {
+    width: 283.75px;
+  }
+  .for-babys .baby-content .baby3 img {
+    height: 200px !important;
+  }
+}
+@media screen and (max-width:390px) {
+  .banner {
+    height: 136px;
+    background-size: 390px;
+  }
+  .buttons li {
+    width: 80px;
+    font-size: 10px;
+  }
+  .banner-text {
+    font-size: 21px;
+  }
+}
+@media screen and (max-width:360px) {
+  .buttons li {
+    width: 70px;
+    font-size: 9px;
+  }
+  .banner {
+    height: 127px;
+    background-size: 360px;
+  }
+  .banner-text {
+    font-size: 20px;
+    left: 25.5%;
+  }
+}
+@media screen and (max-width:340px) {
+  .for-family .family-content img {
+    height: 250px !important;
+  }
+  .for-metrika .metrika-content img {
+    height: 170px !important;
+  }
+  .for-metrika .metrika-content .metrika3 img {
+    width: 241.19px;
+  }
+  .calendar-content .calendar3 img, .calendar-content .calendar2 img {
+    height: 170px !important;
+  }
+}
+@media screen and (max-width:330px) {
+  .banner {
+    height: 116px;
+    background-size: 330px;
+  }
+  .banner-text {
+    font-size: 21px;
+    left: 21.5%;
+  }
+  
+}

@@ -1,0 +1,159 @@
+.footer_page {
+	padding: 2% 0;
+	color: #fff;
+}
+.about_seo {
+	padding: 2% 0;
+}
+.prepare_text h2, .types_of_promotion h2, .methods_text h2 {
+	margin-bottom: 1%;
+}
+.text_about_seo p, .types_of_promotion p, .promotion_text2 p, .promotion_text3 p, .methods_text p {
+	margin-bottom: 0.5%;
+}
+.text_about_seo p:last-child, .promotion_text2 p:last-child {
+	margin-top: 0.5%;
+}
+.text_about_seo li, .types_of_promotion li, .promotion_text2 li, .promotion_text3 li, .services_text li {
+	margin-left: 2%;
+	margin-top: 0.5%;
+}
+.img_1_seo {
+	background-image: url(../img/red_circle_small.svg);
+	background-position: 60% 5%;
+	background-repeat: no-repeat;
+	background-size: 5%;
+}
+.img_2_seo {
+	background-image: url(../img/red_circle.svg);
+	background-position: 90% 20%;
+	background-repeat: no-repeat;
+	background-size: 20%;
+}
+.img_3_seo {
+	background-image: url(../img/red_circle_small.svg);
+	background-position: 30%;
+	background-repeat: no-repeat;
+	background-size: 3%;
+}
+.types_of_promotion {
+	padding: 2% 0;
+	background-color: #000;
+	color: #fff;
+}
+.promotion_text2 h2 {
+	margin-bottom: 1%;
+	margin-top: 1%;	
+}
+.methods {
+	padding: 2% 0;
+}
+.services {
+	padding: 2% 0;
+	background-color: #000;
+	color: #fff;
+}
+.what__do {
+	background-color: #fff;
+	color: #000;
+}
+.what__do__list a {
+	text-decoration: none;
+	color: #000;
+}
+.what__do__list a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+.what__do__title, .what__do__list {
+	color: #000;
+}
+.what__do__item {
+	border-top: 1px solid #000;
+}
+.img_4_seo {
+	background-image: url(../img/red_circle.svg);
+	background-position: 85% 7%;
+	background-repeat: no-repeat;
+	background-size: 20%;
+}
+.img_5_seo {
+	background-image: url(../img/red_circle.svg);
+	background-position: 35% 90%;
+	background-repeat: no-repeat;
+	background-size: 7%;
+}
+.img_6_seo {
+	background-image: url(../img/red_circle.svg);
+	background-position: 5% 70%;
+	background-repeat: no-repeat;
+	background-size: 15%;
+}
+.img_7_seo {
+	background-image: url(../img/red_circle.svg);
+	background-position: 50% 5%;
+	background-repeat: no-repeat;
+	background-size: 10%;
+}
+.img_8_seo {
+	background-image: url(../img/red_circle.svg);
+	background-position: 80% 60%;
+	background-repeat: no-repeat;
+	background-size: 15%;
+}
+.img_9_seo {
+	background-image: url(../img/red_circle.svg);
+	background-position: 40% 70%;
+	background-repeat: no-repeat;
+	background-size: 10%;
+}
+
+@media screen and (max-width:800px) {
+	.footer_page {
+		padding: 2% 0 5% 0;
+	}
+	.footer__menu__link__politic {
+		display: none;
+	}
+}
+@media screen and (max-width:768px) {
+	.footer__menu a {
+		font-size: 11px;
+	}
+	.about_seo h1, .types_of_promotion h1, .methods h1, .services h1, .js__title__animate span {
+		font-size: 22px;
+	}
+	.methods h2, .promotion_text2 h2, .promotion_text3 h2 {
+		font-size: 20px;	
+	}
+	.about_seo p, .types_of_promotion p, .methods p, .programming_text p {
+		font-size: 14px;
+	}
+	.about_seo li, .types_of_promotion li, .services li {
+		font-size: 14px;
+	}
+	.prepare_text h3, .decor_text h3, .programming_text h3 {
+		font-size: 17px;
+	}
+	.what__do__item__text {
+		font-size: 17px;
+	}
+}
+
+@media screen and (max-width:530px) {
+	.about_seo h1, .types_of_promotion h1, .methods h1, .services h1, .js__title__animate span {
+		font-size: 20px;
+	}
+	.methods h2, .promotion_text2 h2, .promotion_text3 h2 {
+		font-size: 18px;	
+	}
+	.about_seo p, .types_of_promotion p, .methods p, .programming_text p {
+		font-size: 12px;
+	}
+	.about_seo li, .types_of_promotion li, .services li {
+		font-size: 12px;
+	}
+	.prepare_text h3, .decor_text h3, .programming_text h3, .what__do__item__text {
+		font-size: 15px;
+	}
+}
